@@ -15,10 +15,9 @@ function forLoop(array){
 }
 
 function whileLoop(x){
-  while(x>=0){
+  while(x>0){
     console.log(x)
     x--
-    
   }
   return "done"
 }
@@ -26,6 +25,6 @@ function whileLoop(x){
 function doWhileLoop(array){
   do{
     array.splice(0,array.length-1)
-  }while(array.length >= 0 && maybeTrue())
+  }while(array.length > 0 && maybeTrue())
   return array
 }
